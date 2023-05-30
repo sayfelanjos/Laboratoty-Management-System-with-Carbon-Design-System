@@ -1,0 +1,75 @@
+.login-page__container {
+    height: calc(100vh - 3rem);
+}
+
+.login-page__background img {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    bottom: 0;
+    width: calc(100% - 24rem);
+    height: calc(100% - 3rem);
+    transform: rotateY(180deg);
+}
+
+form {
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    width: 24rem;
+    height: calc(100% - 3rem);
+    padding: 2.5rem 2rem 0;
+}
+
+form h3:first-child {
+    margin-bottom: .25rem;
+}
+
+form > h3 + h6 {
+    margin: 0;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #8d8d8d;
+}
+
+.login-form__button-box {
+    padding-bottom: 2rem;
+}
+
+.login-form__button {
+    width: 20rem;
+}
+
+#login-form__text-input {
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+.login-form__remember-me-checkbox {
+    margin-bottom: 0 !important;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #8d8d8d;
+}
+
+h6 {
+    margin: 1rem 0;
+}
+
+form > span {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 0.25rem 0;
+}
+
+
+.login-form__checkbox-box {
+    margin-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #8d8d8d;
+}
+
+h6:nth-last-child(-n + 1) {
+    margin: 0;
+    padding-top: 1rem;
+    border-top: 1px solid #8d8d8d;
+}

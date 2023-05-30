@@ -1,0 +1,10 @@
+.container {
+    position: fixed;
+    top: 3rem;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: calc(100vw - 16rem);
+    background: #f4f4f4;
+    padding: 6.4rem;
+}
